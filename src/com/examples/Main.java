@@ -14,5 +14,6 @@ public class Main {
         Forloop.print();
         // data type
         Datatype.print();
+        Array.main();
     }
 }
