@@ -11,7 +11,7 @@ public class Datatype {
         int inta = 1111;
         long intb = 11123322;
         short intc = 112;
-        System.out.printf("byte: %d; int: %d; long: %d; short: %d", b, inta, intb, intc);
+        System.out.printf("byte: %d; int: %d; long: %d; short: %d \n", b, inta, intb, intc);
     }
 
      static void printFloat() {
