@@ -1,5 +1,6 @@
 package com.examples;
 import com.examples.utils.*;
+import com.examples.control.*;
 
 public class Main {
 
@@ -8,6 +9,7 @@ public class Main {
         System.out.println("this is a nice start");
         // simple one
         simple_1.print();
-        //
+        // control statement
+        Forloop.print();
     }
 }
