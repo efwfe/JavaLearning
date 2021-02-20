@@ -1,6 +1,7 @@
 package com.examples;
 import com.examples.utils.*;
 import com.examples.control.*;
+import com.examples.vars.*;
 
 public class Main {
 
@@ -11,5 +12,7 @@ public class Main {
         simple_1.print();
         // control statement
         Forloop.print();
+        // data type
+        Datatype.print();
     }
 }
