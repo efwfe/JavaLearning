@@ -15,6 +15,12 @@ public class Main {
         InitialDemo.print();
         // simple example of stackClass
         StackDemo.print();
+        // overload
+        OverLoadDemo.print();
+        // 递归
+        FabnaqiDemo.print();
+        // private
+        Stack2Demo.print();
     }
 
     public static void showBasic() {
