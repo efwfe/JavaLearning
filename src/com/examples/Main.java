@@ -12,8 +12,21 @@ public class Main {
         simple_1.print();
         // control statement
         Forloop.print();
+        Forloop.multipleVars();
+        Forloop.forEach();
         // data type
         Datatype.print();
         Array.main();
+        // switch control flow
+        Switch.print();
+        // while control flow
+        While.print();
+        // while no body
+        While.nobody();
+        // do-while
+        While.doWhile();
+        // break
+        Break.print();
+        Break.scopes();
     }
 }
