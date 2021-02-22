@@ -25,6 +25,7 @@ public class Main {
         InherBasic.print();
         // 超类引用子类
         RefClass.print();
+        VisitSuper.print();
     }
 
     public static void showBasic() {
