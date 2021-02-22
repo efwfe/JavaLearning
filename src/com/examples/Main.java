@@ -21,6 +21,10 @@ public class Main {
         FabnaqiDemo.print();
         // private
         Stack2Demo.print();
+        // 继承inheritance
+        InherBasic.print();
+        // 超类引用子类
+        RefClass.print();
     }
 
     public static void showBasic() {
