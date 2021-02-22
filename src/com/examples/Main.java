@@ -30,6 +30,8 @@ public class Main {
         Demonstrate.print();
         // overriding method
         Overriding.print();
+        // dynamic method
+        DynamicRef.print();
     }
 
     public static void showBasic() {
