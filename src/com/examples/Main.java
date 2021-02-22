@@ -28,6 +28,8 @@ public class Main {
         VisitSuper.print();
         // 继承的执行顺序
         Demonstrate.print();
+        // overriding method
+        Overriding.print();
     }
 
     public static void showBasic() {
