@@ -34,6 +34,8 @@ public class Main {
         DynamicRef.print();
         // abstruct class
         AbsClass.print();
+        //
+        VarInher.print();
     }
 
     public static void showBasic() {
