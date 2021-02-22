@@ -26,6 +26,8 @@ public class Main {
         // 超类引用子类
         RefClass.print();
         VisitSuper.print();
+        // 继承的执行顺序
+        Demonstrate.print();
     }
 
     public static void showBasic() {
