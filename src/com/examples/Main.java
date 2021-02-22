@@ -32,6 +32,8 @@ public class Main {
         Overriding.print();
         // dynamic method
         DynamicRef.print();
+        // abstruct class
+        AbsClass.print();
     }
 
     public static void showBasic() {
