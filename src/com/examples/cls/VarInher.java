@@ -16,7 +16,7 @@ class Cvar extends Bvar{
 
 public class VarInher {
     public static void print(){
-        var temp1 = createCls(0);
+        var temp1 = createCls(1);
         var temp2 = createCls(1);
         var temp3 = createCls(2);
         System.out.println(temp1.x);
