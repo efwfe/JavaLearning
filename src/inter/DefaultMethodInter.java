@@ -4,6 +4,10 @@ interface DI{
     default String getStr(){
         return "interface default method";
     }
+
+    static void staticMethod(){
+        System.out.println("DI static method");
+    }
 }
 
 interface DI2{
@@ -26,5 +30,7 @@ public class DefaultMethodInter implements DIMixin{
     public void print(){
         String code =  getStr();
         System.out.println("code is : "+ code);
+        DI.staticMethod();
+//        this.staticMethod()  子接口和子类都不能继承接口静态方法
     }
 }
