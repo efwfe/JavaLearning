@@ -1,5 +1,6 @@
 package com.examples.control;
 
+// public class A{} // illegal only on public class
 public class Break {
     public static void print(){
         boolean t = false;
