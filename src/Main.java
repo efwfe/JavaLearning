@@ -1,5 +1,7 @@
 import inter.*;
 import exception.*;
+import threads.ThreadCreate;
+import threads.ThreadDemo;
 
 public class Main {
 
@@ -7,5 +9,9 @@ public class Main {
         DefaultMethodInter d = new DefaultMethodInter();
         d.print();
         TryCatch.print();
+        // thread
+        ThreadDemo.print();
+        // create thead
+        ThreadCreate.print();
     }
 }
