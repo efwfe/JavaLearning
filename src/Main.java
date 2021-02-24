@@ -1,10 +1,11 @@
 import inter.*;
 import exception.*;
 import threads.*;
+import enumerate.*;
 
 public class Main {
 
-    public static void main(String[] args){
+    public static void thread(){
         DefaultMethodInter d = new DefaultMethodInter();
         d.print();
         TryCatch.print();
@@ -17,6 +18,11 @@ public class Main {
         // sync
 //        SyncedThread.main();
         // thread resume and supending
-        ResumeThread.main();
+        // ResumeThread.main();
+
+    }
+
+    public static void main(String[] args){
+        Enumerator.print();
     }
 }
