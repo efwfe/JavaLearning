@@ -1,5 +1,6 @@
 import inter.*;
 import exception.*;
+import reflect.Ref;
 import threads.*;
 import enumerate.*;
 
@@ -24,5 +25,6 @@ public class Main {
 
     public static void main(String[] args){
         Enumerator.print();
+        Ref.print();
     }
 }
