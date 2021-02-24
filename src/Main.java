@@ -1,9 +1,6 @@
 import inter.*;
 import exception.*;
-import threads.SyncedThread;
-import threads.ThreadCreate;
-import threads.ThreadDemo;
-import threads.ThreadExtends;
+import threads.*;
 
 public class Main {
 
@@ -18,6 +15,8 @@ public class Main {
         // create thread from extends Thread class
 //        ThreadExtends.print();
         // sync
-        SyncedThread.main();
+//        SyncedThread.main();
+        // thread resume and supending
+        ResumeThread.main();
     }
 }
