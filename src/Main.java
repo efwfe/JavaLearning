@@ -2,6 +2,7 @@ import inter.*;
 import exception.*;
 import threads.ThreadCreate;
 import threads.ThreadDemo;
+import threads.ThreadExtends;
 
 public class Main {
 
@@ -11,7 +12,10 @@ public class Main {
         TryCatch.print();
         // thread
         ThreadDemo.print();
-        // create thead
+        // create thead runnable interface
         ThreadCreate.print();
+        // create thread from extends Thread class
+        ThreadExtends.print();
+
     }
 }
