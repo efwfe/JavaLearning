@@ -1,5 +1,6 @@
 import inter.*;
 import exception.*;
+import threads.SyncedThread;
 import threads.ThreadCreate;
 import threads.ThreadDemo;
 import threads.ThreadExtends;
@@ -13,9 +14,10 @@ public class Main {
         // thread
         ThreadDemo.print();
         // create thead runnable interface
-        ThreadCreate.print();
+//        ThreadCreate.print();
         // create thread from extends Thread class
-        ThreadExtends.print();
-
+//        ThreadExtends.print();
+        // sync
+        SyncedThread.main();
     }
 }
