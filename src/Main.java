@@ -1,3 +1,4 @@
+import generics.GenericExample;
 import inter.*;
 import exception.*;
 import reflect.Ref;
@@ -20,11 +21,12 @@ public class Main {
 //        SyncedThread.main();
         // thread resume and supending
         // ResumeThread.main();
-
+        Enumerator.print();
+        // 反射
+        Ref.print();
     }
 
     public static void main(String[] args){
-        Enumerator.print();
-        Ref.print();
+        GenericExample.print();
     }
 }
