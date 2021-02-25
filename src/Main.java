@@ -1,6 +1,7 @@
 import generics.BoundedGeneric;
 import generics.GenericExample;
 import generics.MultpleGenerics;
+import generics.SameAvgGeneric;
 import inter.*;
 import exception.*;
 import reflect.Ref;
@@ -33,5 +34,7 @@ public class Main {
         MultpleGenerics.print();
         // 上限范型
         BoundedGeneric.print();
+        //
+        SameAvgGeneric.print();
     }
 }
