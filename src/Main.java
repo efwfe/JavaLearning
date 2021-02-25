@@ -1,4 +1,5 @@
 import generics.GenericExample;
+import generics.MultpleGenerics;
 import inter.*;
 import exception.*;
 import reflect.Ref;
@@ -28,5 +29,6 @@ public class Main {
 
     public static void main(String[] args){
         GenericExample.print();
+        MultpleGenerics.print();
     }
 }

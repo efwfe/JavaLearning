@@ -37,6 +37,8 @@ public class GenericExample {
         Gen<String> strOb = new Gen<String>("Generics Strings");
         strOb.showType();
         System.out.println("strOb :" + strOb.getOb());
+
+        // iOb = strOb; 范型版本不一定兼容
     }
 
 }
