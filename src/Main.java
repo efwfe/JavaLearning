@@ -1,3 +1,4 @@
+import generics.BoundedGeneric;
 import generics.GenericExample;
 import generics.MultpleGenerics;
 import inter.*;
@@ -30,5 +31,7 @@ public class Main {
     public static void main(String[] args){
         GenericExample.print();
         MultpleGenerics.print();
+        // 上限范型
+        BoundedGeneric.print();
     }
 }
