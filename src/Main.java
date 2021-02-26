@@ -35,5 +35,9 @@ public class Main {
         SameAvgGeneric.print();
         // 范型 统配 上界函数
         LimitGeneric.print();
+        // 创建通用方法
+        GenericMethod.main();
+        // 创建通用构造函数
+        GenericFunc.print();
     }
 }
