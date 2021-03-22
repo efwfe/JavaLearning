@@ -16,10 +16,10 @@ class Cvar extends Bvar{
 
 public class VarInher {
     public static void print(){
-        var temp1 = createCls(1);
-        var temp2 = createCls(1);
-        var temp3 = createCls(2);
-        System.out.println(temp1.x);
+//        var temp1 = createCls(1);
+//        var temp2 = createCls(1);
+//        var temp3 = createCls(2);
+//        System.out.println(temp1.x);
 //        System.out.println(temp2.y);
 //        System.out.println(temp3.z);
 

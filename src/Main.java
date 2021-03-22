@@ -2,6 +2,7 @@ import generics.*;
 import inter.*;
 import exception.*;
 import reflect.Ref;
+import reflect.Ref2;
 import threads.*;
 import enumerate.*;
 
@@ -26,7 +27,7 @@ public class Main {
         Ref.print();
     }
 
-    public static void main(String[] args){
+    public static void gen(String[] args){
         GenericExample.print();
         MultpleGenerics.print();
         // 上限范型
@@ -39,5 +40,9 @@ public class Main {
         GenericMethod.main();
         // 创建通用构造函数
         GenericFunc.print();
+    }
+
+    public static void main(String[] args){
+        Ref2.pri();
     }
 }
