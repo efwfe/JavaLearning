@@ -1,3 +1,4 @@
+import arrs.Reverse;
 import generics.*;
 import inter.*;
 import exception.*;
@@ -43,6 +44,6 @@ public class Main {
     }
 
     public static void main(String[] args){
-        Ref2.pri();
+        Reverse.outPrint();
     }
 }
